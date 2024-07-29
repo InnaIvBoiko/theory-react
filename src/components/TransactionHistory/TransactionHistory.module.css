@@ -1,0 +1,31 @@
+.table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  max-width: 700px;
+  margin-top: 48px;
+}
+
+.title {
+  width: calc(100% / 3);
+  font-size: 20px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  padding: 12px;
+}
+
+.row:nth-child(even) {
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+.type {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 8px 8px 8px 60px;
+}
+
+.value {
+  font-size: 18px;
+  border: 2px solid black;
+  text-align: center;
+}

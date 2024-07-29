@@ -1,0 +1,26 @@
+.item {
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 16px 8px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.online {
+  color: seagreen;
+  font-size: 18px;
+}
+
+.offline {
+  color: red;
+  font-size: 18px;
+}
